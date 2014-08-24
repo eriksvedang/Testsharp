@@ -9,3 +9,21 @@ Testsharp-csharp.sln
 Testsharp.sln
 
 Testsharp.userprefs
+
+Library/assetDatabase3
+
+Library/ScriptAssemblies/Assembly-CSharp.dll
+
+Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+
+TheLib/TheLib/bin/Debug/TheLib.dll
+
+TheLib/TheLib/bin/Debug/TheLib.dll.mdb
+
+TheLib/TheLib/obj/Debug/TheLib.dll
+
+TheLib/TheLib/obj/Debug/TheLib.dll.mdb
+
+TheLib/TheLib/obj/Debug/TheLib.fsproj.FilesWrittenAbsolute.txt
+
+Assets/Frameworks/TheLib.dll
