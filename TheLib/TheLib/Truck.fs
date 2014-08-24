@@ -31,10 +31,11 @@ type Truck() =
         this.syncWithFlightMode()
 
     member this.inputHandler = function
-        | (KeyCode.A, Pressed) -> this.control $ Turn Left
-        | (KeyCode.D, Pressed) -> this.control $ Turn Right
-        | (KeyCode.W, Pressed) -> this.control $ Move
-        | (KeyCode.Space, Down) -> this.swapFlightMode()
+        | Keyboard (KeyCode.A, Pressed) -> this.control $ Turn Left
+        | Keyboard (KeyCode.D, Pressed) -> this.control $ Turn Right
+        | Keyboard (KeyCode.W, Pressed) -> this.control $ Move
+        | Keyboard (KeyCode.Space, Down) -> this.swapFlightMode()
+        | Mouse    (RightMouseButton, Up) -> Debug.Log "You released the right mouse button"
         | _ -> ()
 
     member this.control signal =
@@ -50,9 +51,11 @@ type Truck() =
                       | _ -> Landed
 
     member this.syncWithFlightMode () =
-        let height = match flightMode with
-                     | Landed ->  0.0f
-                     | (InAir h) -> h
+        let targetHeight = match flightMode with
+                           | Landed ->  0.0f
+                           | (InAir h) -> h
+        let deltaHeight = targetHeight - this.transform.position.y
+        let newHeight = this.transform.position.y + (deltaHeight * 10.0f * Time.deltaTime)
         this.transform.position <- new Vector3(this.transform.position.x,
-                                               height,
+                                               newHeight,
                                                this.transform.position.z)

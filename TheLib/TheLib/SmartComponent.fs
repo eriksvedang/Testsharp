@@ -21,14 +21,15 @@ type SmartComponent() =
            stick <- extract $ maybe { let! arm = find "Arm" this.transform 
                                       return! find "Stick" arm }
     
-    member this.Update() = fetchInput (this.inputHandler)
+    member this.Update() = () //fetchInput (this.inputHandler)
 
-    member this.inputHandler keyEvent = match keyEvent with
-                                           | (x, Down) -> Debug.Log $ sprintf "%A down" x
-                                           | (KeyCode.A, Pressed) -> this.transform.Translate $ new Vector3(-10.0f * Time.deltaTime, 0.0f, 0.0f)
-                                           | (KeyCode.D, Pressed) -> this.transform.Translate $ new Vector3(10.0f * Time.deltaTime, 0.0f, 0.0f)
-                                           | (KeyCode.W, Up) -> Debug.Log("W was released!")
-                                           | _ -> ()
+    member this.inputHandler keyEvent = ()
+//        match keyEvent with
+//           | (x, Down) -> Debug.Log $ sprintf "%A down" x
+//           | (KeyCode.A, Pressed) -> this.transform.Translate $ new Vector3(-10.0f * Time.deltaTime, 0.0f, 0.0f)
+//           | (KeyCode.D, Pressed) -> this.transform.Translate $ new Vector3(10.0f * Time.deltaTime, 0.0f, 0.0f)
+//           | (KeyCode.W, Up) -> Debug.Log("W was released!")
+//           | _ -> ()
 
     member this.setupFlashlight() = 
         ignore $ maybe { 

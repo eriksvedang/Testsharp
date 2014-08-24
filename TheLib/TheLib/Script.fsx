@@ -1,15 +1,16 @@
-﻿// Learn more about F# at http://fsharp.net. See the 'F# Tutorial' project
-// for more guidance on F# programming.
-
-#load "Component1.fs"
-open TheLib
-
+﻿
 #load "Maybe.fs"
-
-open Option
 open Maybe
 
-let f x = Some (x / 2)
+#load "Json.fs"
+open Json
 
+jsonToString data3
+jsonToString data4
 
-(Some 10) >>= f
+lookup data4 "a"
+nth data3 2
+
+for c in "erik" do
+    printfn "c = %A" c
+
