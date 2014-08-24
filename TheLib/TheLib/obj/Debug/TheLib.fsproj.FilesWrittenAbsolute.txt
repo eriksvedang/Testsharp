@@ -1,0 +1,6 @@
+/Users/erik/Projects/Testsharp/TheLib/TheLib/bin/Debug/TheLib.dll.mdb
+/Users/erik/Projects/Testsharp/TheLib/TheLib/bin/Debug/TheLib.dll
+/Users/erik/Projects/Testsharp/TheLib/TheLib/obj/Debug/TheLib.dll
+/Users/erik/Projects/Testsharp/TheLib/TheLib/obj/Debug/TheLib.dll.mdb
+/Users/erik/Projects/Testsharp/TheLib/TheLib/bin/Debug/mscorlib.dll
+/Users/erik/Projects/Testsharp/TheLib/TheLib/bin/Debug/UnityEngine.dll

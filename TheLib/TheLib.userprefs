@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TheLib/UnityMagic.fs">
+    <Files>
+      <File FileName="TheLib/SmartComponent.fs" Line="30" Column="30" />
+      <File FileName="TheLib/UnityMagic.fs" Line="23" Column="23" />
+      <File FileName="TheLib/Script.fsx" Line="16" Column="16" />
+      <File FileName="TheLib/Maybe.fs" Line="14" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

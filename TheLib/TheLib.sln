@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "TheLib", "TheLib\TheLib.fsproj", "{98361659-9737-4740-BEA7-9EED37B04BD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98361659-9737-4740-BEA7-9EED37B04BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98361659-9737-4740-BEA7-9EED37B04BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98361659-9737-4740-BEA7-9EED37B04BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98361659-9737-4740-BEA7-9EED37B04BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = TheLib\TheLib.fsproj
+	EndGlobalSection
+EndGlobal
