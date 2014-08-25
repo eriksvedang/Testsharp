@@ -50,16 +50,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="Things.fs">
-    </Compile>
-    <Compile Include="Misc.fs" />
-    <Compile Include="Component1.fs" />
-    <Compile Include="Script.fsx" />
     <Compile Include="Maybe.fs" />
     <Compile Include="UnityMagic.fs" />
     <Compile Include="SmartComponent.fs" />
     <Compile Include="Truck.fs" />
     <Compile Include="Json.fs" />
+    <Compile Include="Playground.fsx" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\..\Microsoft SDKs\F#\3.1\Framework\v4.0\Microsoft.FSharp.Targets" />
 </Project>

@@ -25,13 +25,13 @@ and strKeyValue (s, json) = "'" + s + "': " + (jsonToString json)
 
 
 
-let rec lookup jsonDict key =
+let rec lookup key jsonDict =
     match jsonDict with
-    | JDict ((k, v)::tail) -> if key = k then v else lookup (JDict tail) key
+    | JDict ((k, v)::tail) -> if key = k then v else lookup key (JDict tail)
     | JDict [] -> JNull
     | _ -> raise (Error "Can't use 'lookup' function on something that's not a dictionary")
 
-let rec nth jsonList n =
+let rec nth n jsonList =
     match jsonList with
     | JList l -> l.Item n
     | _ -> raise (Error "Can't use 'nth' function on something that's not a list")
@@ -43,3 +43,5 @@ let data1 = JNumber 20.0f
 let data2 = JString "hej"
 let data3 = JList [data1; data2]
 let data4 = JDict [("a", JNumber 2.0f); ("b", JString "jupp")]
+let data5 = JDict [("stuff", JList [JNumber 10.0f; JNumber 20.0f; JNumber 30.0f]); ("fisk", JTrue)]
+
