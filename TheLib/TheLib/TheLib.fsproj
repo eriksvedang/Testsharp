@@ -57,6 +57,7 @@
     <Compile Include="UnityMagic.fs" />
     <Compile Include="SmartComponent.fs" />
     <Compile Include="Truck.fs" />
+    <Compile Include="ParserCombinators.fs" />
     <Compile Include="Json.fs" />
     <Compile Include="Playground.fsx" />
   </ItemGroup>

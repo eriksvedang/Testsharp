@@ -13,4 +13,19 @@ nth 1 data3
 data5 |> lookup "stuff" |> nth 2
 
 
+#load "ParserCombinators.fs"
+open ParserCombinators
+open System
 
+parse (pchar 'e') &"erik"
+
+//let rec expr =
+//    number >> space >> number >> mreturn
+//and number = 
+//    many1 digit >>= fun digits ->
+//    mreturn (Decimal.Parse (%digits + ","))
+//
+//parse expr &"213"
+//
+//
+//
