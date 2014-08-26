@@ -1,13 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TheLib/Truck.fs">
-    <Files>
-      <File FileName="TheLib/UnityMagic.fs" Line="59" Column="59" />
-      <File FileName="TheLib/Truck.fs" Line="66" Column="66" />
-      <File FileName="TheLib/Json.fs" Line="5" Column="5" />
-      <File FileName="TheLib/Script.fsx" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

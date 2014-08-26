@@ -2,7 +2,7 @@
 
 open UnityEngine
 open UnityMagic
-open Maybe
+open FSharpx.Option
 
 type SmartComponent() = 
     inherit MonoBehaviour()
