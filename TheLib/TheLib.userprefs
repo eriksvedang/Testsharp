@@ -3,7 +3,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="TheLib/ParserCombinators.fs">
     <Files>
       <File FileName="TheLib/ParserCombinators.fs" Line="1" Column="1" />
-      <File FileName="TheLib/Json.fs" Line="27" Column="27" />
+      <File FileName="TheLib/Json.fs" Line="1" Column="1" />
       <File FileName="TheLib/Playground.fsx" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
